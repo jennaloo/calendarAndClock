@@ -1,9 +1,14 @@
+* {
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
 #clock {
     background-color: black;
-    height: 200px;
+    height: 100%;
     font-family: 'digital-7', sans-serif;
     color: aqua;
-    font-size: 130px;
+    font-size: 550%;
     border: 10px solid grey;
 }
 
@@ -19,7 +24,7 @@
 
 #calendar {
     border: 10px solid lightblue;
-    height: 200px;
+    height: 100%;
     color: darkgrey;
-    font-size: 120px;
+    font-size: 550%;
 }
