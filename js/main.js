@@ -48,7 +48,7 @@ function displayTime() {
     if (hh > 12) {
         var clock = "" + (hh - 12) + ":" + mm + ":" + ss + "" + " PM";
     } else {
-        var clock = "" + hh + ":" + mm + ":" + ss + "" + "AM";
+        var clock = "" + hh + ":" + mm + ":" + ss + "" + " AM";
     }
     document.getElementById("clock").innerText = clock;
 
