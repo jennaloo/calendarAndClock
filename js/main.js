@@ -58,10 +58,10 @@ function displayTime() {
 function displayDate() {
     var now = new Date();
     var mm = formatTime(now.getMonth());
-    var dd = formatTime(now.getDay());
+    var dd = formatTime(now.getDate());
     var yy = formatTime((now.getYear() + 1900));
 
-    var date = "" + mm + "/" + dd + "/" + yy + "";
+    var date = "" + (mm + 1) + "/" + dd + "/" + yy + "";
     document.getElementById("calendar").innerText = date;
     setInterval('displayDate()', 86400000)
 }

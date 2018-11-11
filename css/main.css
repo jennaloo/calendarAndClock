@@ -9,7 +9,7 @@
     font-family: 'digital-7', sans-serif;
     color: aqua;
     font-size: 550%;
-    border: 10px solid grey;
+    box-shadow: 5px 10px 10px #888888;
 }
 
 @font-face {
@@ -23,8 +23,8 @@
 
 
 #calendar {
-    border: 10px solid lightblue;
     height: 100%;
-    color: darkgrey;
+    color: lightblue;
     font-size: 500%;
+    box-shadow: 5px 10px 10px #888888;
 }
