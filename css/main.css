@@ -1,0 +1,25 @@
+#clock {
+    background-color: black;
+    height: 200px;
+    font-family: 'digital-7', sans-serif;
+    color: aqua;
+    font-size: 130px;
+    border: 10px solid grey;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('fonts/digital-7 (mono).ttf');
+}
+
+#hr {
+    color: aqua;
+}
+
+
+#calendar {
+    border: 10px solid lightblue;
+    height: 200px;
+    color: darkgrey;
+    font-size: 120px;
+}
